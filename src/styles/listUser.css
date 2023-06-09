@@ -1,0 +1,61 @@
+.navigation {
+    display: flex;
+    height: 20%;
+    background-color: rgb(151, 254, 151);
+}
+
+.title {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end !important;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.btn-logout {
+    margin-bottom: 10px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-logout:active {
+    background-color: aqua;
+}
+
+.search-input {
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    outline: none;
+}
+
+.btn-search {
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    border: 1px solid black;
+}
